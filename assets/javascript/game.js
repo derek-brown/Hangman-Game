@@ -1,7 +1,7 @@
 var gameObject = {
 //Properties of the object.
 gameArray: ["Daenrys", "Jaime", "Ayra", "Tyrion",
-            "Gregor", "Cersei", "Sana", "Joffery", "Ramsey",
+            "Gregor", "Cersei", "Sansa", "Joffery", "Ramsey",
             "Melisandre", "Margaery", "Sandor", "Bronn", "Petyr",
             "Hodor","Theon","Varys","Jon","Jorah","Missandei"],
 lineArray: [],
@@ -39,7 +39,7 @@ document.onkeyup = function(event){
         document.querySelector("#win").innerHTML = win;
         guessed = "<p>Guessed Letters: "+gameObject.guessedLetters+"</p>";
         document.querySelector("#guessed").innerHTML = guessed;
-        attempts = "<p>Guesses Left: "+gameObject.guessesLeft+"</p>";
+        attempts = "<p>Guesses Left: "+gameObject.guessesLeft+"</p>";j
         document.querySelector("#attempts").innerHTML = attempts;
     } //closes if statement
 
